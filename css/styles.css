@@ -1,0 +1,209 @@
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-background-color: #f5f4fa;
+  --secondary-background-color: #2f303a;
+  --primary-font: 'roboto', sans-serif;
+  --secondary-font: 'relaway', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+/* =========DROP STYLES========== */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/* =========END DROP STYLES========== */
+
+/* ============HEADER============= */
+/* =============LOGO============= */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--black-color);
+}
+
+.logo-span {
+  color: var(--accent-color);
+}
+
+.logo-footer-span {
+  color: var(--white-color);
+}
+/* =============END LOGO============= */
+
+/* ============NAVIGATION============== */
+.nav-site,
+.nav-contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-site-link {
+  color: inherit;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.nav-contact-link {
+  color: var(--secondary-text-color);
+}
+
+.nav-site-link:hover,
+.nav-site-link:focus,
+.nav-contact-link:hover,
+.nav-contact-link:focus {
+  color: var(--accent-color);
+}
+/* ============END NAVIGATION============== */
+/* ============END HEADER============= */
+
+/* =============FOOTER============= */
+footer {
+  background-color: var(--secondary-background-color);
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.address-map {
+  color: #ffffff;
+}
+
+.address-mail,
+.address-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item .link:hover,
+.address-item .link:focus {
+  color: var(--accent-color);
+}
+/* =============END FOOTER============= */
+
+/* ==============HERO============== */
+.hero-section {
+  text-align: center;
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/* =============END HERO============== */
+
+/* =============FEATURES============ */
+.features-list-subtitle {
+  font-weight: bold;
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-list-description {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+/* =============END FEATURES============ */
+
+/* =============WHAT WE DO=========== */
+.what-we-do-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* =============END WHAT WE DO=========== */
+
+/* =============TEAM============ */
+.team-section {
+  background-color: var(--primary-background-color);
+}
+
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-list-item {
+  background-color: var(--white-color);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.team-description {
+  font-size: 16px;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/* =============END TEAM============ */
+
+/* ============PORTFOLIO============ */
+.portfolio-filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  background-color: var(--primary-background-color);
+  cursor: pointer;
+}
+
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.portfolio-works-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-works-description {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
+/* ============END PORTFOLIO============ */
