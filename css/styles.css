@@ -76,7 +76,7 @@ body {
 /* ============END HEADER============= */
 
 /* =============FOOTER============= */
-footer {
+.footer {
   background-color: var(--secondary-background-color);
 }
 
